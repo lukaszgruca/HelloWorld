@@ -3,22 +3,42 @@
 <html>
   <head>
     <title>Nexifly</title>
+    <style>
+      .container {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .menu {
+        width: 20%;
+      }
+
+      .main {
+        width: 80%;
+      }
+    </style>
   </head>
   <body>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">Contact Us</a></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <div class="menu">
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
 
-    <h1>Welcome to Nexifly</h1>
-    <p>Here's some information about our new brand.</p>
-    <ul>
-      <li>1. Our brand is focused on providing high-quality products.</li>
-      <li>2. We are committed to customer satisfaction.</li>
-    </ul>
+      <div class="main">
+        <h1>Welcome to Nexifly</h1>
+        <p>Here's some information about our new brand.</p>
+        <ul>
+          <li>1. Our brand is focused on providing high-quality products.</li>
+          <li>2. We are committed to customer satisfaction.</li>
+        </ul>
+      </div>
+    </div>
   </body>
 </html>
