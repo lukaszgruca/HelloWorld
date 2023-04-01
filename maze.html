@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Maze Generator</title>
+    <script src="maze.js"></script>
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+    <script>
+      var canvas = document.getElementById('canvas');
+      var maze = new Maze(20, 20);
+      maze.draw(canvas);
+    </script>
+  </body>
+</html>
